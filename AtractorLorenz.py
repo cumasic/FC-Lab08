@@ -17,7 +17,7 @@ def lorenz(xyz0,t):
 xyz0 = [1.0, 1.0, 1.0]
 
 #Tiempo
-t = np.linspace(0,100,1000)
+t = np.linspace(0,100,10000)
 
 #Solucion de las ecuaciones diferenciales
 sol = solve_event_equation = odeint(lorenz,xyz0,t)
